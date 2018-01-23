@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">123</property>
+		<!-- alumni -->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/alumni?autoReconnect=true&amp;characterEncoding=UTF-8</property>
+		<property name="hibernate.connection.useUnicode">true</property> 
+		<property name="hibernate.connection.characterEncoding">UTF-8</property>
+		<property name="hibernate.max_fetch_depth">3</property>
+		<property name="hibernate.jdbc.batch_size">20</property>
+		<property name="current_session_context_class">thread</property>
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+		<property name="hbm2ddl.auto">update</property>
+		<!-- C3P0 -->
+		<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+		<property name="hibernate.c3p0.testConnectionOnCheckout">true</property>
+		<property name="hibernate.c3p0.acquire_increment">2</property>
+		<property name="hibernate.c3p0.idle_test_period">300</property>
+		<property name="hibernate.c3p0.timeout">1800</property>
+		<property name="hibernate.c3p0.max_size">100</property>
+		<property name="hibernate.c3p0.min_size">3</property>
+		<property name="hibernate.c3p0.max_statement">0</property>
+		<property name="hibernate.c3p0.preferredTestQuery">select 1;</property>
+		<property name="hibernate.c3p0.validate">true</property>
+		<!-- Mapping files -->
+		<mapping class="domain.Admin"/>
+		<mapping class="domain.Alumnus"/>
+		<mapping class="domain.Category"/>
+		<mapping class="domain.College"/>
+		<mapping class="domain.Resume"/>
+		<mapping class="domain.Field"/>
+		<mapping class="domain.InboxMessage"/>
+		<mapping class="domain.SentMessage"/>
+		<mapping class="domain.ArchivedMessage"/>
+		<mapping class="domain.Project"/>
+		<mapping class="domain.ProjectManager"/>
+		<mapping class="domain.Request"/>
+		<mapping class="domain.ArchivedRequest"/>
+		<mapping class="domain.Skill"/>
+		<mapping class="domain.Contactus"/>
+		<!-- Mapping files -->
+	</session-factory>
+</hibernate-configuration>

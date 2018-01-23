@@ -1,0 +1,248 @@
+.font-blue {
+  color: #4c66a4;
+}
+
+ul > li.blue, .label-blue {
+  background:#788BB4;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+ul > li.blue:HOVER, .label-blue:HOVER{
+  background:#5b74a8;
+  cursor:pointer;
+}
+.progress .bar.bar-blue {
+  background: #4c66a4;
+}
+
+.pricing-tables .pricing.blue > li.head {
+  background: #4c66a4;
+}
+.pricing-tables .pricing.blue > li.head .info {
+  background: #5872b2;
+}
+.pricing-tables .pricing.blue > li.head .name {
+  background: #3c5081;
+}
+
+.btn.btn-blue {
+  background: #4c66a4;
+  color: #fff !important;
+}
+.btn.btn-blue:hover {
+  background: #3c5081;
+}
+
+.box.box-color.blue .box-title {
+  background: #4c66a4 !important;
+}
+.box.box-color.blue .box-title .actions > a:hover {
+  color: #4c66a4;
+}
+.box.box-color.blue .form-wizard .wizard-steps li.active .single-step .title {
+  background: #4c66a4;
+}
+.box.box-color.blue .btn.btn-primary {
+  background: #4c66a4;
+}
+.box.box-bordered.box-color.blue .box-title {
+  border-color: #4c66a4 !important;
+}
+.box.box-bordered.box-color.blue .box-content {
+  border-color: #4c66a4 !important;
+}
+.box.box-bordered.box-color.blue .slimScrollDiv {
+  border-bottom: 2px solid #4c66a4;
+}
+
+.timeline > li .timeline-content .left .icon.blue {
+  background: #4c66a4;
+}
+
+ .daterangepicker .active {
+  background: #4c66a4;
+}
+ .mobile-sidebar-toggle {
+  color: #fff;
+}
+ #navigation .dropdown-menu {
+  border: 1px solid #c5c5c5;
+  box-shadow: 0 3px 8px #000;
+  -webkit-box-shadow: 0 3px 8px #000;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+ #navigation .dropdown-menu > li.dropdown-submenu .dropdown-menu {
+  border-top: 2px solid #4c66a4;
+}
+ #navigation .dropdown-menu > li.dropdown-submenu:hover > a,  #navigation .dropdown-menu > li.dropdown-submenu:focus > a {
+  background: #4c66a4;
+}
+ #navigation .dropdown-menu > li > a:hover {
+  background: #4c66a4;
+}
+ .datepicker.datepicker-dropdown .datepicker-days .active,  .datepicker.datepicker-dropdown .datepicker-years .active,  .datepicker.datepicker-dropdown .datepicker-months .active {
+  background: #4c66a4;
+}
+ .datepicker.datepicker-dropdown .datepicker-days .active:hover,  .datepicker.datepicker-dropdown .datepicker-years .active:hover,  .datepicker.datepicker-dropdown .datepicker-months .active:hover {
+  background: #3c5081;
+}
+ .form-wizard .wizard-steps li.active .single-step .title {
+  background: #4c66a4;
+}
+ .btn.btn-primary {
+  background: #4c66a4;
+}
+.login {
+  background: #4c66a4;
+}
+ a {
+  color: #4c66a4;
+}
+ .btn {
+  color: #333;
+}
+ .btn.btn-primary {
+  background: #4c66a4;
+  color: #fff;
+}
+ .btn.btn-inverse,  .btn.btn-success,  .btn.btn-danger {
+  color: #fff;
+}
+.locked {
+  background: #4c66a4 !important;
+}
+.locked .pull-left a {
+  background: #344570;
+}
+.locked .pull-left a:hover {
+  background: #24304d;
+}
+ #navigation {
+  background: #4c66a4;
+  background-image: url("../img/fbg.png");
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: 0 0;	
+}
+ #navigation .toggle-mobile {
+  background: #344570;
+}
+ #navigation .mobile-nav.open {
+  background: #4c66a4;
+}
+ #navigation .mobile-nav.open > li.active > a {
+  background: #24304d;
+}
+ #navigation .mobile-nav.open > li.active > ul {
+  background: #24304d;
+}
+ #navigation .mobile-nav.open > li > a {
+  background: #344570;
+}
+ #navigation .mobile-nav.open > li > ul {
+  background: #344570;
+}
+ #navigation .main-nav > li.active > a:hover {
+  background:#edf0f5;
+}
+ #navigation .main-nav > li.active.open > a {
+  background: #fff;
+}
+ #navigation .main-nav > li.open > a {
+  background: #344570;
+}
+ #navigation .main-nav > li > a:hover {
+  background: #344570;
+}
+ #navigation .user .icon-nav > li > a:hover {
+  background: #344570;
+}
+ #navigation .user .dropdown.open {
+  background: #344570;
+}
+ #navigation .user .dropdown > a:hover {
+  background: #344570;
+}
+ #navigation .dropdown-menu > li > a:hover {
+  background: #6d84b4;
+}
+ .search-form .search-pane button[type="submit"] {
+  background: #4c66a4;
+}
+ .messages > li.insert .submit button {
+  background: #4c66a4;
+}
+ .messages > li.right .name {
+  color: #0a2640;
+}
+ .messages > li.right .message {
+  background: #d2d9ea;
+}
+ .messages > li.right .message p {
+  color: #1c253b;
+}
+ .messages > li.right .message .time {
+  color: #1c253b;
+}
+ .messages > li.right .message .caret {
+  border-left: 7px solid #d2d9ea;
+}
+ .letterbox .letter > li.active {
+  background: #4c66a4;
+}
+ .calendar .fc-content .fc-event .fc-event-inner {
+  background: #4c66a4;
+}
+ .calendar .fc-button.fc-state-active {
+  background: #4c66a4;
+}
+ .calendar .fc-button.fc-state-active:hover {
+  background: #4c66a4;
+}
+ .table.table-user tr.alpha td.alpha-val span {
+  background: #4c66a4;
+}
+ .tagsinput#textfield_tagsinput .tag,  .ms-container .multi-custom-header,  .slider .ui-slider-handle,  .form-wizard .wizard-steps li.active .single-step .title,  .user-list h4,  .nav.nav-pills > li.active > a,  .nav.nav-list > li.active > a,  .table.table-colored-header thead th,  .table.table-colored-header thead td,  .dataTables_wrapper .dataTables_paginate > span > a.paginate_active,  .elfinder-navbar .ui-state-active,  .pagination.pagination-custom li.active a:hover,  .pagination.pagination-custom li.active a {
+  background: #4c66a4;
+}
+ .elfinder-navbar .ui-state-active {
+  border-color: #4c66a4;
+}
+ #main .box .box-title .tabs > li.active > a {
+  background: #4c66a4;
+}
+ #main .box.box-color .box-title {
+  background: #4c66a4;
+}
+ #main .box.box-color .box-title .tabs > li.active > a {
+  background: #fff;
+  color: #4c66a4;
+}
+ #main .box.box-color .box-title .tabs > li > a:hover {
+  color: #4c66a4;
+}
+ #main .box.box-bordered.box-color .box-title {
+  border-color: #4c66a4;
+}
+ #main .box.box-bordered.box-color .box-content {
+  border-color: #4c66a4;
+}
+
+.accordion-widget .accordion-group.orange {
+  border: 2px solid #f8a31f;
+}
+.accordion-widget .accordion-group.orange:hover {
+  border-color: #dd8907 !important;
+}
+.accordion-widget .accordion-group.orange .accordion-toggle {
+  background: #f8a31f !important;
+  color: #fff;
+}
+.accordion-widget .accordion-group.orange .accordion-toggle:hover {
+  background: #dd8907 !important;
+}
+
