@@ -15,12 +15,12 @@
 	
 	<script type="text/javascript">
 		$(function(){
-			$('#txt_datepicker').datepicker({
+			/* $('#txt_datepicker').datepicker({
 				changeMonth: true,
 				changeYear: true,
 				yearRange: 'c-100:c+20',
 				dateFormat: 'yy/mm/dd'
-			});
+			}); */
 			$("#frm_test").validationEngine();
 		});
 		//--------------------------------------------------------//
